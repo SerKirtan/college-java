@@ -1,0 +1,10 @@
+package _3;
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter distance in meters : ");
+        double meter = scan.nextDouble();
+        System.out.println(meter + " meters in feets is " + meter*3.37);
+    }
+}
